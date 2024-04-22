@@ -4,7 +4,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-  base: '/vuepress-doc/',
+  base: '/',
+  // base: '/vuepress-doc/',
 
   title: 'VuePress',
   description: 'My first VuePress Site',
